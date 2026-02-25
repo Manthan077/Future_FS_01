@@ -77,7 +77,7 @@ export default function Projects() {
                 </h3>
 
                 <p className="text-[var(--text-secondary)] text-lg mb-8">
-                  {project.description}
+                  {project.overview}
                 </p>
 
                 <p className="text-sm text-sky-400 mb-12">

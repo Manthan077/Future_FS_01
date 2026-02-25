@@ -1,6 +1,8 @@
 import infostack from "../assets/projects/infostack.png";
 import mediroute from "../assets/projects/mediroute.png";
 import reforge from "../assets/projects/reforge.png";
+import maxfitness from "../assets/projects/max-fitness-pro.png";
+import leadforge from "../assets/projects/leadforge.png";
 
 export const projects = [
   {
@@ -116,5 +118,83 @@ export const projects = [
     ],
 
     tech: "React · Node.js · Puppeteer · JWT · Express",
+  },
+
+  {
+    slug: "max-fitness-pro",
+    title: "MAX FITNESS PRO",
+    subtitle: "Modern Fitness Center Website",
+    image: maxfitness,
+    github: "https://github.com/Manthan077/Future_FS_03",
+    demo: "https://max-fitness-pro.vercel.app",
+
+    overview:
+      "A modern, responsive fitness center website featuring dark/light theme toggle, interactive gallery, membership plans, and seamless user experience optimized for all devices.",
+
+    problem: [
+      "Traditional gym websites lack modern UI/UX.",
+      "Poor mobile experience drives potential members away.",
+      "No easy way to showcase facilities and pricing."
+    ],
+
+    solution: [
+      "Built responsive design with Tailwind CSS for all devices.",
+      "Implemented dark/light theme with persistent preferences.",
+      "Created interactive filterable gallery with lightbox view."
+    ],
+
+    architecture: [
+      "React 19 with modern hooks and components.",
+      "Vite 7 for lightning-fast build and development.",
+      "React Router DOM for seamless navigation.",
+      "Context API for theme state management."
+    ],
+
+    impact: [
+      "Fully responsive across mobile, tablet, and desktop.",
+      "Smooth theme switching with localStorage persistence.",
+      "Fast performance with optimized load times."
+    ],
+
+    tech: "React · Vite · Tailwind CSS · React Router",
+  },
+
+  {
+    slug: "leadforge-crm",
+    title: "LEADFORGE CRM",
+    subtitle: "Client Lead Management System",
+    image: leadforge,
+    github: "https://github.com/Manthan077/Future_FS_02",
+    demo: "https://leadforge-crm.vercel.app",
+
+    overview:
+      "A powerful, intuitive Client Lead Management System designed to help businesses efficiently manage incoming leads with advanced analytics, real-time updates, and 92% conversion rate optimization.",
+
+    problem: [
+      "Businesses struggle to track and manage leads effectively.",
+      "No centralized system for lead status and follow-ups.",
+      "Lack of analytics to measure conversion performance."
+    ],
+
+    solution: [
+      "Built comprehensive lead management with search and filters.",
+      "Implemented real-time status updates and note tracking.",
+      "Created advanced analytics dashboard with multiple chart types."
+    ],
+
+    architecture: [
+      "React frontend with Recharts for data visualization.",
+      "Node.js + Express backend with RESTful API.",
+      "MongoDB with Mongoose for data persistence.",
+      "JWT-based authentication for secure access."
+    ],
+
+    impact: [
+      "92% conversion rate with optimized lead tracking.",
+      "Real-time updates for instant status changes.",
+      "Beautiful analytics with Pie, Bar, Area, and Radial charts."
+    ],
+
+    tech: "React · Node.js · MongoDB · Express · JWT · Recharts",
   },
 ];
