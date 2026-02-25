@@ -16,7 +16,7 @@ This portfolio highlights real-world engineering projects with detailed case stu
 - 🎨 Three theme modes (Default, Dark, Light) with smooth transitions
 - 📱 Fully responsive across devices
 - 🧠 Project case studies with problem → solution → architecture → impact
-- 📩 Working contact form with Gmail integration
+- 📩 Working contact form with Resend email service
 - 🔒 Rate-limited backend to prevent spam / DoS attacks
 - 🎭 Animated UI components with Framer Motion
 - 🖼️ Professional profile photo with gradient effects
@@ -37,7 +37,7 @@ This portfolio highlights real-world engineering projects with detailed case stu
 ### Backend (Contact Form API)
 - Node.js
 - Express
-- Nodemailer (Gmail App Password)
+- Resend (Email Service)
 - dotenv
 - express-rate-limit
 - CORS
@@ -55,7 +55,9 @@ Portfolio/
 │   │   └── projects/            # Project images
 │   │       ├── infostack.png
 │   │       ├── mediroute.png
-│   │       └── reforge.png
+│   │       ├── reforge.png
+│   │       ├── max-fitness-pro.png
+│   │       └── leadforge.png
 │   ├── components/
 │   │   ├── Footer.jsx           # Footer with theme support
 │   │   ├── Navbar.jsx           # Navigation with theme toggle
@@ -109,6 +111,20 @@ Portfolio/
 - One-click ZIP export with all assets
 - **Tech**: React · Node.js · Puppeteer · JWT · Express
 
+### 4. MAX FITNESS PRO
+**Modern Fitness Center Website**
+- Dark/light theme toggle with persistent preferences
+- Interactive filterable gallery with lightbox
+- Membership plans and Google Maps integration
+- **Tech**: React · Vite · Tailwind CSS · React Router
+
+### 5. LEADFORGE CRM
+**Client Lead Management System**
+- Advanced analytics with multiple chart types
+- Real-time lead status updates and note tracking
+- 92% conversion rate optimization
+- **Tech**: React · Node.js · MongoDB · Express · JWT · Recharts
+
 ---
 
 ## 📬 Contact Form
@@ -139,8 +155,10 @@ node index.js
 ### Environment Variables (.env in server/)
 ```env
 RESEND_API_KEY=your_resend_api_key
-RECEIVER_EMAIL=your_gmail_id
+RECEIVER_EMAIL=your_email@gmail.com
 ```
+
+> **Note**: Get your Resend API key from [resend.com](https://resend.com) after creating an account.
 
 ---
 
